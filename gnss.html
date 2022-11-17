@@ -172,7 +172,7 @@
             // get TLE from celestrak.com
             var xmlHttp = new XMLHttpRequest();
             //xmlHttp.open("GET", "gnssradar/celestrak.txt", false);
-            xmlHttp.open("GET", "http://celestrak.org/NORAD/elements/gp.php?GROUP=gnss&FORMAT=tle", false);
+            xmlHttp.open("GET", "https://celestrak.org/NORAD/elements/gp.php?GROUP=gnss&FORMAT=tle", false);
             xmlHttp.send(null);
             var tledl = xmlHttp.responseText;
 
