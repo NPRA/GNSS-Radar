@@ -306,7 +306,7 @@
                 return y + "/" + m + "/" + d + " " + H + ":" + M;
             }
             function invisGPS(n, flag) {
-                document.getElementById('gps').innerHTML = '<img onClick="JavaScript:visGPS(' + n + ',true)" src="/gnssradar/icon/gpsicon_.png" /><a class="invis" href="#" onClick="JavaScript:visGPS(' + n + ',true)">GPS(' + n + ')&nbsp;</a><br/>';
+                document.getElementById('gps').innerHTML = '<img onClick="JavaScript:visGPS(' + n + ',true)" src="./gnssradar/icon/gpsicon_.png" /><a class="invis" href="#" onClick="JavaScript:visGPS(' + n + ',true)">GPS(' + n + ')&nbsp;</a><br/>';
                 if (flag) {
                     visstate['gps'] = false;
                     visible_sat_gmap(false, "gps");
@@ -319,7 +319,7 @@
                 update_nall();
             }
             function invisGLO(n, flag) {
-                document.getElementById('glo').innerHTML = '<img onClick="JavaScript:visGLO(' + n + ',true)" src="/gnssradar/icon/gloicon_.png" /><a class="invis" href="#" onClick="JavaScript:visGLO(' + n + ',true)">GLO(' + n + ')&nbsp;</a><br/>';
+                document.getElementById('glo').innerHTML = '<img onClick="JavaScript:visGLO(' + n + ',true)" src="./gnssradar/icon/gloicon_.png" /><a class="invis" href="#" onClick="JavaScript:visGLO(' + n + ',true)">GLO(' + n + ')&nbsp;</a><br/>';
                 if (flag) {
                     visstate['glo'] = false;
                     visible_sat_gmap(false, "glo");
@@ -332,7 +332,7 @@
                 update_nall();
             }
             function invisGAL(n, flag) {
-                document.getElementById('gal').innerHTML = '<img onClick="JavaScript:visGAL(' + n + ',true)" src="/gnssradar/icon/galicon_.png" /><a class="invis" href="#" onClick="JavaScript:visGAL(' + n + ',true)">GAL(' + n + ')&nbsp;</a><br/>';
+                document.getElementById('gal').innerHTML = '<img onClick="JavaScript:visGAL(' + n + ',true)" src="./gnssradar/icon/galicon_.png" /><a class="invis" href="#" onClick="JavaScript:visGAL(' + n + ',true)">GAL(' + n + ')&nbsp;</a><br/>';
                 if (flag) {
                     visstate['gal'] = false;
                     visible_sat_gmap(false, "gal");
@@ -344,7 +344,7 @@
                 update_nall();
             }
             function invisBDS(n, flag) {
-                document.getElementById('bds').innerHTML = '<img onClick="JavaScript:visBDS(' + n + ',true)" src="/gnssradar/icon/bdsicon_.png" /><a class="invis" href="#" onClick="JavaScript:visBDS(' + n + ',true)">BDS(' + n + ')&nbsp;</a><br/>';
+                document.getElementById('bds').innerHTML = '<img onClick="JavaScript:visBDS(' + n + ',true)" src="./gnssradar/icon/bdsicon_.png" /><a class="invis" href="#" onClick="JavaScript:visBDS(' + n + ',true)">BDS(' + n + ')&nbsp;</a><br/>';
                 if (flag) {
                     visstate['bds'] = false;
                     visible_sat_gmap(false, "bds");
@@ -357,7 +357,7 @@
                 update_nall();
             }
             function invisQZS(n, flag) {
-                document.getElementById('qzs').innerHTML = '<img onClick="JavaScript:visQZS(' + n + ',true)" src="/gnssradar/icon/qzsicon_.png" /><a class="invis" href="#" onClick="JavaScript:visQZS(' + n + ',true)">QZS(' + n + ')&nbsp;</a><br/>';
+                document.getElementById('qzs').innerHTML = '<img onClick="JavaScript:visQZS(' + n + ',true)" src="./gnssradar/icon/qzsicon_.png" /><a class="invis" href="#" onClick="JavaScript:visQZS(' + n + ',true)">QZS(' + n + ')&nbsp;</a><br/>';
                 if (flag) {
                     visstate['qzs'] = false;
                     visible_sat_gmap(false, "qzs");
@@ -369,7 +369,7 @@
                 update_nall();
             }
             function invisIRNS(n, flag) {
-                document.getElementById('irns').innerHTML = '<img onClick="JavaScript:visIRNS(' + n + ',true)" src="/gnssradar/icon/irnsicon_.png" /><a class="invis" href="#" onClick="JavaScript:visIRNS(' + n + ',true)">IRNS(' + n + ')&nbsp;</a><br/>';
+                document.getElementById('irns').innerHTML = '<img onClick="JavaScript:visIRNS(' + n + ',true)" src="./gnssradar/icon/irnsicon_.png" /><a class="invis" href="#" onClick="JavaScript:visIRNS(' + n + ',true)">IRNS(' + n + ')&nbsp;</a><br/>';
                 if (flag) {
                     visstate['irns'] = false;
                     visible_sat_gmap(false, "irns");
@@ -381,7 +381,7 @@
                 update_nall();
             }
             function invisSBS(n, flag) {
-                document.getElementById('sbs').innerHTML = '<img onClick="JavaScript:visSBS(' + n + ',true)" src="/gnssradar/icon/sbsicon_.png" /><a class="invis" href="#" onClick="JavaScript:visSBS(' + n + ',true)">SBS(' + n + ')&nbsp;</a><br/>';
+                document.getElementById('sbs').innerHTML = '<img onClick="JavaScript:visSBS(' + n + ',true)" src="./gnssradar/icon/sbsicon_.png" /><a class="invis" href="#" onClick="JavaScript:visSBS(' + n + ',true)">SBS(' + n + ')&nbsp;</a><br/>';
                 if (flag) {
                     visstate['sbs'] = false;
                     visible_sat_gmap(false, "sbs");
@@ -393,7 +393,7 @@
                 update_nall();
             }
             function visGPS(n, flag) {
-                document.getElementById('gps').innerHTML = '<img onClick="JavaScript:invisGPS(' + n + ',true)" src="/gnssradar/icon/gpsicon.png" /><a class="vis" href="#" onClick="JavaScript:invisGPS(' + n + ',true)">GPS(' + n + ')&nbsp;</a><br/>';
+                document.getElementById('gps').innerHTML = '<img onClick="JavaScript:invisGPS(' + n + ',true)" src="./gnssradar/icon/gpsicon.png" /><a class="vis" href="#" onClick="JavaScript:invisGPS(' + n + ',true)">GPS(' + n + ')&nbsp;</a><br/>';
                 if (flag) {
                     visstate['gps'] = true;
                     visible_sat_gmap(true, "gps");
@@ -406,7 +406,7 @@
                 update_nall();
             }
             function visGLO(n, flag) {
-                document.getElementById('glo').innerHTML = '<img onClick="JavaScript:invisGLO(' + n + ',true)" src="/gnssradar/icon/gloicon.png" /><a class="vis" href="#" onClick="JavaScript:invisGLO(' + n + ',true)">GLO(' + n + ')&nbsp;</a><br/>';
+                document.getElementById('glo').innerHTML = '<img onClick="JavaScript:invisGLO(' + n + ',true)" src="./gnssradar/icon/gloicon.png" /><a class="vis" href="#" onClick="JavaScript:invisGLO(' + n + ',true)">GLO(' + n + ')&nbsp;</a><br/>';
                 if (flag) {
                     visstate['glo'] = true;
                     visible_sat_gmap(true, "glo");
@@ -419,7 +419,7 @@
                 update_nall();
             }
             function visGAL(n, flag) {
-                document.getElementById('gal').innerHTML = '<img onClick="JavaScript:invisGAL(' + n + ',true)" src="/gnssradar/icon/galicon.png" /><a class="vis" href="#" onClick="JavaScript:invisGAL(' + n + ',true)">GAL(' + n + ')&nbsp;</a><br/>';
+                document.getElementById('gal').innerHTML = '<img onClick="JavaScript:invisGAL(' + n + ',true)" src="./gnssradar/icon/galicon.png" /><a class="vis" href="#" onClick="JavaScript:invisGAL(' + n + ',true)">GAL(' + n + ')&nbsp;</a><br/>';
                 if (flag) {
                     visstate['gal'] = true;
                     visible_sat_gmap(true, "gal");
@@ -431,7 +431,7 @@
                 update_nall();
             }
             function visBDS(n, flag) {
-                document.getElementById('bds').innerHTML = '<img onClick="JavaScript:invisBDS(' + n + ',true)" src="/gnssradar/icon/bdsicon.png" /><a class="vis" href="#" onClick="JavaScript:invisBDS(' + n + ',true)">BDS(' + n + ')&nbsp;</a><br/>';
+                document.getElementById('bds').innerHTML = '<img onClick="JavaScript:invisBDS(' + n + ',true)" src="./gnssradar/icon/bdsicon.png" /><a class="vis" href="#" onClick="JavaScript:invisBDS(' + n + ',true)">BDS(' + n + ')&nbsp;</a><br/>';
                 if (flag) {
                     visstate['bds'] = true;
                     visible_sat_gmap(true, "bds");
@@ -444,7 +444,7 @@
                 update_nall();
             }
             function visQZS(n, flag) {
-                document.getElementById('qzs').innerHTML = '<img onClick="JavaScript:invisQZS(' + n + ',true)" src="/gnssradar/icon/qzsicon.png" /><a class="vis" href="#" onClick="JavaScript:invisQZS(' + n + ',true)">QZS(' + n + ')&nbsp;</a><br/>';
+                document.getElementById('qzs').innerHTML = '<img onClick="JavaScript:invisQZS(' + n + ',true)" src="./gnssradar/icon/qzsicon.png" /><a class="vis" href="#" onClick="JavaScript:invisQZS(' + n + ',true)">QZS(' + n + ')&nbsp;</a><br/>';
                 if (flag) {
                     visstate['qzs'] = true;
                     visible_sat_gmap(true, "qzs");
@@ -456,7 +456,7 @@
                 update_nall();
             }
             function visIRNS(n, flag) {
-                document.getElementById('irns').innerHTML = '<img onClick="JavaScript:invisIRNS(' + n + ',true)" src="/gnssradar/icon/irnsicon.png" /><a class="vis" href="#" onClick="JavaScript:invisIRNS(' + n + ',true)">IRNS(' + n + ')&nbsp;</a><br/>';
+                document.getElementById('irns').innerHTML = '<img onClick="JavaScript:invisIRNS(' + n + ',true)" src="./gnssradar/icon/irnsicon.png" /><a class="vis" href="#" onClick="JavaScript:invisIRNS(' + n + ',true)">IRNS(' + n + ')&nbsp;</a><br/>';
                 if (flag) {
                     visstate['irns'] = true;
                     visible_sat_gmap(true, "irns");
@@ -468,7 +468,7 @@
                 update_nall();
             }
             function visSBS(n, flag) {
-                document.getElementById('sbs').innerHTML = '<img onClick="JavaScript:invisSBS(' + n + ',true)" src="/gnssradar/icon/sbsicon.png" /><a class="vis" href="#" onClick="JavaScript:invisSBS(' + n + ',true)">SBS(' + n + ')&nbsp;</a><br/>';
+                document.getElementById('sbs').innerHTML = '<img onClick="JavaScript:invisSBS(' + n + ',true)" src="./gnssradar/icon/sbsicon.png" /><a class="vis" href="#" onClick="JavaScript:invisSBS(' + n + ',true)">SBS(' + n + ')&nbsp;</a><br/>';
                 if (flag) {
                     visstate['sbs'] = true;
                     visible_sat_gmap(true, "sbs");
